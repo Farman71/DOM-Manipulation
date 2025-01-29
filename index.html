@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Counter using HTML</h1>
+        
+        <div class="counter-div">
+            <label>Your current count is :</label>
+            <label id="counter">0</label>
+        </div>
+
+        <div class="error-div" id="error-msg">
+            <label>Error: Cannot go below 0</label>
+        </div>
+
+        <div class="button-div">
+            <button type="button" id="dec-btn">Decrement</button>
+            <button type="button" id="inc-btn">Increment</button>
+            <button type="button" id="clear-btn">Clear</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
